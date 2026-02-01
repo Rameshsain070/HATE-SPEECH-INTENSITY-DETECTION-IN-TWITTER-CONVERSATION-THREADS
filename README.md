@@ -1,2 +1,12 @@
-# HATE-SPEECH-INTENSITY-DETECTION-IN-TWITTER-CONVERSATION-THREADS
-The task involves predicting how hate speech evolves in Twitter reply chains by analyzing three interconnected dimensions . The temporal progression of hate intensity over time. The severity of toxic language, and the sensitive  themes targeted (e.g., race, religion, gender) .
+# Hate Speech Intensity Prediction (Exploratory Codebase)
+
+This repository contains code for studying **hate speech intensity and escalation**
+in Twitter reply chains using temporal, contextual, and graph-based representations.
+
+The focus of this project is **not binary hate classification**, but understanding how hate
+*emerges and intensifies over the course of a conversation*.
+
+This codebase was developed as part of an academic project and primarily serves as a
+**research and learning-oriented implementation**, rather than a polished production system.
+
+
