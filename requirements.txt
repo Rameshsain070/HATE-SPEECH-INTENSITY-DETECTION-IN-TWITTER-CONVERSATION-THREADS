@@ -1,0 +1,9 @@
+numpy
+scipy
+scikit-learn
+matplotlib
+torch
+torchvision
+torch-geometric
+networkx
+scikit-fuzzy
