@@ -19,7 +19,7 @@ Instead of predicting weather the tweet is hateful or not it predicts the probab
 of conversation evolving into toxic content, it analyzes the conversation to detect early signs 
 of hate
 
-# High level idea
+# 🧠High level idea
 The model treats the conversation tweets as a time series data.
 The pipeline broadly follows these steps:
 1. Convert reply chains into windowed hate intensity sequences
@@ -28,8 +28,9 @@ The pipeline broadly follows these steps:
 4. Use historical context + prior cluster information to predict future trends
 
 
-# Repository Structure
+## Repository Structure
 
+```text
 hate-intensity-experiments/
 ├── src/
 │   ├── models/        # Neural architectures (encoders, predictors, graph layers)
@@ -37,10 +38,10 @@ hate-intensity-experiments/
 │   └── utils/         # Metrics and helper functions
 │
 ├── scripts/           # Entry-point scripts for running experiments
-├── data/              # Dataset placeholder
+├── data/              # Dataset 
 ├── docs/              # Informal experiment notes
 └── README.md
-
+```
 
 
 # 📊 Models and architectural varients
@@ -83,7 +84,7 @@ Note:
 Dataset paths and preprocessing steps must be configured manually.
 
 
-📈 Evaluation metrics
+# 📈 Evaluation metrics
 
 Performance is evaluated using standard regression-style metrics commonly
 used for trend prediction:
@@ -93,7 +94,7 @@ used for trend prediction:
 3. Root Mean Squared Error (RMSE)
 
 
-⚠️ Important notes and limitations
+# ⚠️ Important notes and limitations
  This codebase reflects exploratory research work and iterative experimentation
  Some configurations and experiments are not fully reproducible
  Hyperparameters and model choices were tuned empirically
