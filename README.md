@@ -69,7 +69,7 @@ and follow the authors’ instructions for access.
 
 # ▶️ How to use this repository
 
-## Usage
+**Usage**
 Install dependencies
 
 ```bash
@@ -95,7 +95,7 @@ used for trend prediction:
 
 
 # ⚠️ Important notes and limitations
- This codebase reflects exploratory research work and iterative experimentation
- Some configurations and experiments are not fully reproducible
- Hyperparameters and model choices were tuned empirically
- The repository is not intended as a benchmark or production-ready system
+1. This codebase reflects exploratory research work and iterative experimentation.
+2. Some configurations and experiments are not fully reproducible..
+3. Hyperparameters and model choices were tuned empirically.
+4. The repository is not intended as a benchmark or production-ready system.
