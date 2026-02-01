@@ -40,6 +40,7 @@ hate-intensity-experiments/
 ├── scripts/           # Entry-point scripts for running experiments
 ├── data/              # Dataset 
 ├── docs/              # Informal experiment notes
+├── requirements.txt
 └── README.md
 ```
 
